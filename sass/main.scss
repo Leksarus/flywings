@@ -1,0 +1,19 @@
+@import 'colors-and-dimensions.scss';
+@import '_header.scss';
+@import '_mainContent.scss';
+
+.wholePage {
+	width: $background;
+	height: 1450px;
+	margin: auto;
+	clear: both;
+	background: url('../images/background.png');
+	background-size: 100% 100%;
+	font-family: 'Cambay', sans-serif;
+	.mainFrame {
+		width: $mainFrame;
+		margin: auto;
+	}
+}
+
+
